@@ -10,7 +10,11 @@ https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
 >3: Click `Enable Developer Mode’to complete the setup.
 > ```
 
-# Install Chromebrew:
+## Install Chromebrew:
+# Prerequisites
+> [!WARNING]
+> Please be aware of the fact that developer mode is insecure if not properly configured.
+
 <a id="set_passwd" /> <!-- for reference in installation section -->
 > [!TIP]
 > Setting a password as instructed in the VT-2 login screen is recommended. It is also recommended to enable signed boot:
@@ -19,6 +23,9 @@ https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
 > sudo chromeos-setdevpasswd
 > sudo crossystem dev_boot_signed_only=1
 > ```
+
+# Installation
+
 > [!IMPORTANT]
 > The beta, dev, and Canary channels are ***not*** supported and should ***not*** be used with Chromebrew. Failure to take notice of this warning will cause major issues with your Chromebrew installation.
 >
@@ -28,12 +35,12 @@ https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
 > On ChromeOS M117+, the Chromebrew installer will not work in `crosh` anymore due to the security changes introduced in ChromeOS M117.
 
 Open a VT-2 terminal session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>-></kbd> and login with the `chronos` user and password if set [above](#set_passwd). *(if you are unable to do this, please have a second look at the prerequisites and make sure your Chromebook is in developer mode)*
+
 Then run the installation script below:
 
 ```bash
 bash <(curl -L git.io/vddgY) && . ~/.bashrc
 ```
-
 # Add python script:
 
 # Add Chrome-Autostart:

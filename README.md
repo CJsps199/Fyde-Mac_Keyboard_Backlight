@@ -34,7 +34,7 @@ https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
 > [!WARNING]
 > On ChromeOS M117+, the Chromebrew installer will not work in `crosh` anymore due to the security changes introduced in ChromeOS M117.
 
-Open a VT-2 terminal session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>-></kbd> and login with the `chronos` user and password if set [above](#set_passwd). *(if you are unable to do this, please have a second look at the prerequisites and make sure your Chromebook is in developer mode)*
+Open a VT-2 terminal session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> and login with the `chronos` user and password if set [above](#set_passwd). *(if you are unable to do this, please have a second look at the prerequisites and make sure your Chromebook is in developer mode)*
 
 Then run the installation script below:
 

@@ -15,6 +15,11 @@ https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
 > sudo chromeos-setdevpasswd
 > sudo crossystem dev_boot_signed_only=1
 > ```
+Then run the installation script below:
+
+```bash
+bash <(curl -L git.io/vddgY) && . ~/.bashrc
+```
 
 # Add python script:
 

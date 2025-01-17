@@ -2,6 +2,12 @@
 Chromius Based OS - Macbook keyboard backlight.
 Steps to get keyboard backlight working semi fine on Macbook running FydeOS
 
+# 4 Steps:
+### Activate Developer Mode on OS
+### Install Chromebrew
+### Download Python Script
+### Activate autostart with  Chrome Autostart
+
 # Activate Developer Mode to access crosh shell:
 ## Video guide:
 [![Watch the video](https://fydeos.io/help/_astro/light-logo.CAcCaTqf.svg)](https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4)

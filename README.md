@@ -97,6 +97,7 @@ chmod +x /usr/local/bin/keyboard-backlight.py
 
 
 # Add Chrome-Autostart:
+Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 
 ## Installation
 > [!IMPORTANT]

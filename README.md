@@ -1,5 +1,5 @@
-# Fyde-Mac_Keyboard_Backlight
-FydeOS - Macbook keyboard backlight.
+# Fyde-Mac_Keyboard_Backlight - Works on FydeOS, ChromeOS via Brunch or ChromeOS Flex
+Chromius Based OS - Macbook keyboard backlight.
 Steps to get keyboard backlight working semi fine on Macbook running FydeOS
 
 # Activate Developer Mode to access crosh shell:
@@ -10,8 +10,8 @@ https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
 >3: Click `Enable Developer Mode’to complete the setup.
 > ```
 
-## Install Chromebrew:
-# Prerequisites
+# Install Chromebrew:
+## Prerequisites
 > [!WARNING]
 > Please be aware of the fact that developer mode is insecure if not properly configured.
 
@@ -24,7 +24,7 @@ https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
 > sudo crossystem dev_boot_signed_only=1
 > ```
 
-# Installation
+## Installation
 
 > [!IMPORTANT]
 > The beta, dev, and Canary channels are ***not*** supported and should ***not*** be used with Chromebrew. Failure to take notice of this warning will cause major issues with your Chromebrew installation.

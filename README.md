@@ -26,6 +26,8 @@ Thanks to the developers: https://github.com/chromebrew/chromebrew
 >
 > ```bash
 > sudo chromeos-setdevpasswd
+> ```
+> ```bash
 > sudo crossystem dev_boot_signed_only=1
 > ```
 

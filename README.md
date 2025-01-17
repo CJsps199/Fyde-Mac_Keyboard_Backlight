@@ -42,7 +42,9 @@ Then run the installation script below:
 bash <(curl -L git.io/vddgY) && . ~/.bashrc
 ```
 
-> This is mainly to add Python support. Chromebrew installs Python by defaul during installation.
+
+> This is mainly to add Python support.
+> Chromebrew installs Python by default during installation.
 
 # Add python script:
 

@@ -14,6 +14,8 @@ Steps to get keyboard backlight working semi fine on Macbook running FydeOS
 > ```
 
 # Install Chromebrew:
+Thanks to the devolopers: https://github.com/chromebrew/chromebrew
+
 ## Prerequisites
 > [!WARNING]
 > Please be aware of the fact that developer mode is insecure if not properly configured.

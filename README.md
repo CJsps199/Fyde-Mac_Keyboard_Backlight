@@ -98,3 +98,21 @@ chmod +x /usr/local/bin/keyboard-backlight.py
 
 # Add Chrome-Autostart:
 
+## Installation
+> [!IMPORTANT]
+> This extension conflicts with [Secure Shell extension (development version)](https://chrome.google.com/webstore/detail/algkcnfjnajfhgimadimbjhmpaeohhln). (as this extension [used its ID](#How-does-it-works))
+>
+> Please remove it before installing this extension (if installed), otherwise this extension might not work as expected
+
+- Download [the latest release of this extension (in `zip`)](https://github.com/supechicken/ChromeOS-AutoStart/releases/latest) and unzip it
+- Go to `chrome://extensions` and enable Developer Mode
+- Click `Load unpacked extension` and select the `ChromeOS-AutoStart-<version>` unzipped folder
+- A new window will appear and add command(s) you want to run at startup
+- Optional: Click the `Test run` button to test it out after adding a command
+
+> [!NOTE]
+> Please do not delete the unzipped folder after loading the extension, otherwise the extension will get deleted after reboot
+
+
+## Setup to start *keyboard-backlight.py*
+

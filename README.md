@@ -52,6 +52,41 @@ bash <(curl -L git.io/vddgY) && . ~/.bashrc
 > Chromebrew installs Python by default during installation.
 
 # Add python script:
+## Make the root directory writable.
+
+```bash
+bash sudo -i
+```
+
+```bash
+bash mount -o rw,remount /
+```
+## Clone Repository to home directory
+
+```bash
+bash cd /home/chronos/user
+```
+
+```bash
+ bash git clone https://github.com/CJsps199/Fyde-Mac_Keyboard_Backlight.git
+```
+
+## Copy file to correct directory
+
+```bash
+bash cd Fyde-Mac_Keyboard_Backlight
+```
+
+```bash
+bash cp keyboard-backlight.py /usr/local/bin
+```
+
+## Make file executable
+
+```bash
+bash chmod +x /usr/local/bin/keyboard-backlight.py
+```
+
 
 # Add Chrome-Autostart:
 

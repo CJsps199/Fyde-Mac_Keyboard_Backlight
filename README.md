@@ -41,6 +41,9 @@ Then run the installation script below:
 ```bash
 bash <(curl -L git.io/vddgY) && . ~/.bashrc
 ```
+
+> This is mainly to add Python support. Chromebrew installs Python by defaul during installation.
+
 # Add python script:
 
 # Add Chrome-Autostart:

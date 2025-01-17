@@ -4,9 +4,8 @@ Steps to get keyboard backlight working semi fine on Macbook running FydeOS
 
 # Activate Developer Mode to access crosh shell:
 ## Video guide:
-> ```
-> https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4
->  ```
+[![Watch the video](https://fydeos.io/help/_astro/light-logo.CAcCaTqf.svg)]([https://youtu.be/vt5fpE0bzSY](https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4))
+
 
 > ```
 >1: Open the Settings menu.

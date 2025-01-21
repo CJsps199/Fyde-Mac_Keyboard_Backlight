@@ -79,7 +79,7 @@ cd /home/chronos/user
  git clone https://github.com/CJsps199/Fyde-Mac_Keyboard_Backlight.git
 ```
 
-## Copy file to correct directory
+## Copy python file to correct directory
 
 ```bash
 cd Fyde-Mac_Keyboard_Backlight
@@ -88,39 +88,15 @@ cd Fyde-Mac_Keyboard_Backlight
 ```bash
 cp keyboard-backlight.py /usr/local/bin
 ```
+## Copy bash script to home directory & make script executable
 
-## Add basic Bash script to run command from autostart (Works best to run via Bash script):
-
-```bash
-nano keyboard-startup.sh
-```
-
-```bash
-#!/bin.bash
-python /usr/local/bin/keyboard-backlight.py &
-```
-
-- Save file:
-<kbd>Ctrl</kbd>+<kbd>o</kbd>
->
-- <kbd>Enter</kbd>
->
-- Exit editor:
-<kbd>Ctrl</kbd>+<kbd>x</kbd>
->
-## Make file executable
->
-
-```bash
-chmod +x keyboard-startup.sh
-```
-
-## Move file to home directory:
->
 ```bash
 cp keyboard-startup.sh /home/chronos/user/
 ```
->
+
+```bash
+chmod +x /home/chronos/user/keyboard-startup.sh
+```
 
 # Add Chrome-Autostart:
 Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart

@@ -118,5 +118,6 @@ Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 ## Setup to start *keyboard-backlight.py*
 
 
-test
-2
+> CLick on Extention details:
+> ![image](https://github.com/user-attachments/assets/a37f850d-ae68-4078-8d01-7a6211e0492b)
+> 

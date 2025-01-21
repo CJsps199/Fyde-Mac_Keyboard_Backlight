@@ -97,7 +97,7 @@ nano keyboard-startup.sh
 
 ```bash
 #!/bin.bash
-sudo python /usr/local/bin/keyboard-backlight.py
+python /usr/local/bin/keyboard-backlight.py &
 ```
 
 - Save file:

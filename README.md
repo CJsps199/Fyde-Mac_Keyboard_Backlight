@@ -86,7 +86,7 @@ cd Fyde-Mac_Keyboard_Backlight
 ```
 
 ```bash
-cp keyboard-backlight.py /usr/local/bin
+cp keyboard-backlight.py /usr/local/bin/
 ```
 ## Copy bash script to home directory & make script executable
 
@@ -117,26 +117,26 @@ Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 > Please do not delete the unzipped folder after loading the extension, otherwise the extension will get deleted after reboot
 
 
-## Setup to start *keyboard-backlight.py*
+## Add entry to start *keyboard backlight* on system boot
 
 
-- CLick on Extention details: 
+### Click on Extention details: 
 > ![image](https://github.com/user-attachments/assets/a37f850d-ae68-4078-8d01-7a6211e0492b)
 >
 > 
-- Click on Extention Options:
+### Click on Extention Options:
 > ![image](https://github.com/user-attachments/assets/273f2896-affb-42ed-808a-5ba3432471b6)
 >
 > 
-- Click on Manage Autostart Entries:
+### Click on Manage Autostart Entries:
 > ![image](https://github.com/user-attachments/assets/3a8bde87-d86a-49e2-a97f-e3cf1d6155fb)
 >
 > 
-- Click on Add New Entry:
+### Click on Add New Entry:
 > ![image](https://github.com/user-attachments/assets/81d9ac39-ed4a-494c-a763-d547ae0dc098)
 >
 > 
-- Add Command:
+### Add Command:
 > ![image](https://github.com/user-attachments/assets/0d1d93ef-968e-47d3-8c1c-7ad4a4cab526)
 >
 > 
@@ -147,11 +147,11 @@ sudo bash /home/chronos/user/keyboard-startup.sh
 ```
 >
 >
-- Save Script:
+### Save Script:
 > ![image](https://github.com/user-attachments/assets/89da0744-9f7c-43fb-86ae-480c6542d58b)
 >
 > 
-- Test Run Script:
+### Test Run Script:
 > ![image](https://github.com/user-attachments/assets/be7fd44d-fee7-493b-986d-12e9460626b1)
 
 

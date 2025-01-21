@@ -122,23 +122,23 @@ Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 ## Add entry to start *keyboard backlight* on system boot
 
 
-### >1: Click on Extention details: 
+### 1: Click on Extention details: 
 > ![image](https://github.com/user-attachments/assets/a37f850d-ae68-4078-8d01-7a6211e0492b)
 >
 > 
-### >2: Click on Extention Options:
+### 2: Click on Extention Options:
 > ![image](https://github.com/user-attachments/assets/273f2896-affb-42ed-808a-5ba3432471b6)
 >
 > 
-### >3: Click on Manage Autostart Entries:
+### 3: Click on Manage Autostart Entries:
 > ![image](https://github.com/user-attachments/assets/3a8bde87-d86a-49e2-a97f-e3cf1d6155fb)
 >
 > 
-### >4: Click on Add New Entry:
+### 4: Click on Add New Entry:
 > ![image](https://github.com/user-attachments/assets/81d9ac39-ed4a-494c-a763-d547ae0dc098)
 >
 > 
-### >5: Add Command:
+### 5: Add Command:
 > ![image](https://github.com/user-attachments/assets/0d1d93ef-968e-47d3-8c1c-7ad4a4cab526)
 >
 > 
@@ -149,11 +149,11 @@ sudo bash /home/chronos/user/keyboard-startup.sh
 ```
 >
 >
-### >6: Save Script:
+### 6: Save Script:
 > ![image](https://github.com/user-attachments/assets/89da0744-9f7c-43fb-86ae-480c6542d58b)
 >
 > 
-### >7: Test Run Script:
+### 7: Test Run Script:
 > ![image](https://github.com/user-attachments/assets/be7fd44d-fee7-493b-986d-12e9460626b1)
 
 

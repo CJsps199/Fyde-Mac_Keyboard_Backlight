@@ -46,7 +46,7 @@ def adjust_brightness():
         out = out[1:-4]
         if int(out) < sensor_threshold:
             adj = on_brightness
-        if int(out) >= sensor_threshold
+        if int(out) >= sensor_threshold:
             adj = off_brightness
       
         os.system("echo " + str(adj) + " > /sys/devices/platform/applesmc.768/leds/smc\:\:kbd_backlight/brightness")

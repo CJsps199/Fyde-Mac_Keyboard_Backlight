@@ -90,10 +90,10 @@ cp keyboard-backlight.py /usr/local/bin
 ```
 
 ```
-## Add basic Bash script to run command from autostart (Works best to run via Bash script)
+## Add basic Bash script to run command from autostart (Works best to run via Bash script):
 
 ```bash
-sudo nano keyboard-startup.sh
+nano keyboard-startup.sh
 ```
 
 ```
@@ -104,16 +104,24 @@ sudo python /usr/local/bin/keyboard-backlight.py
 - Save file:
 <kbd>Ctrl</kbd>+<kbd>o</kbd>
 >
-<kbd>Enter</kbd>
+- <kbd>Enter</kbd>
 >
 - Exit editor:
 <kbd>Ctrl</kbd>+<kbd>x</kbd>
-
+>
 ## Make file executable
+>
 
 ```bash
 chmod +x keyboard-startup.sh
 ```
+
+## Move file to home directory:
+>
+```bash
+cp keyboard-startup.sh /home/chronos/user/
+```
+>
 
 # Add Chrome-Autostart:
 Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
@@ -158,13 +166,13 @@ Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 >
 > 
 ```bash
-sudo bash /home/user/chronos/keyboard-startup.sh
+sudo bash /home/chronos/user/keyboard-startup.sh
 <developer password> (this was set when installing Chromebrew)
 ```
 >
 >
 - Save Script:
-> ![image](https://github.com/user-attachments/assets/0f5e5548-1680-4049-bc4f-bb99c82ead11)
+> ![image](https://github.com/user-attachments/assets/4a19bd11-1d28-46cc-95fe-a839477a2346)
 >
 > 
 - Test Run Script:

@@ -89,14 +89,13 @@ cd Fyde-Mac_Keyboard_Backlight
 cp keyboard-backlight.py /usr/local/bin
 ```
 
-```
 ## Add basic Bash script to run command from autostart (Works best to run via Bash script):
 
 ```bash
 nano keyboard-startup.sh
 ```
 
-```
+```bash
 #!/bin.bash
 sudo python /usr/local/bin/keyboard-backlight.py
 ```

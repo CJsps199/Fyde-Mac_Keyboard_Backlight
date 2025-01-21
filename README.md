@@ -94,7 +94,23 @@ cp keyboard-backlight.py /usr/local/bin
 ```bash
 chmod +x /usr/local/bin/keyboard-backlight.py
 ```
+## Add basic Bash script to run command from autostart (Works best to run via Bash script)
 
+```bash
+sudo nano keyboard-startup.sh
+```
+
+```
+#!/bin.bash
+sudo python /usr/local/bin/keyboard-backlight.py
+```
+
+> Save file:
+<kbd>Ctrl</kbd>+<kbd>o</kbd>
+<kbd>Enter</kbd>
+
+> Exit editor:
+<kbd>Ctrl</kbd>+<kbd>x</kbd>
 
 # Add Chrome-Autostart:
 Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
@@ -118,6 +134,30 @@ Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 ## Setup to start *keyboard-backlight.py*
 
 
-> CLick on Extention details:
-> ![image](https://github.com/user-attachments/assets/a37f850d-ae68-4078-8d01-7a6211e0492b)
-> 
+- CLick on Extention details: 
+- ![image](https://github.com/user-attachments/assets/a37f850d-ae68-4078-8d01-7a6211e0492b)
+
+- Click on Extention Options:
+- ![image](https://github.com/user-attachments/assets/273f2896-affb-42ed-808a-5ba3432471b6)
+
+- Click on Manage Autostart Entries:
+- ![image](https://github.com/user-attachments/assets/3a8bde87-d86a-49e2-a97f-e3cf1d6155fb)
+
+- Click on Add New Entry:
+- ![image](https://github.com/user-attachments/assets/81d9ac39-ed4a-494c-a763-d547ae0dc098)
+
+- Add Command:
+- ![image](https://github.com/user-attachments/assets/0d1d93ef-968e-47d3-8c1c-7ad4a4cab526)
+
+```bash
+sudo bash /home/user/chronos/keyboard-startup.sh
+<developer password> (this was set when installing Chromebrew)
+```
+
+- Save Script:
+- ![image](https://github.com/user-attachments/assets/0f5e5548-1680-4049-bc4f-bb99c82ead11)
+
+- Test Run Script:
+- ![image](https://github.com/user-attachments/assets/be7fd44d-fee7-493b-986d-12e9460626b1)
+- 
+

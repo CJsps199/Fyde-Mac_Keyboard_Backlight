@@ -10,7 +10,7 @@ Steps to get keyboard backlight working semi fine on Macbook running FydeOS
 >4: Install & activate autostart script with *Chrome Autostart*
 > ```
 
-# Activate Developer Mode to access crosh shell:
+# 1: Activate Developer Mode to access crosh shell:
 ## Video guide:
 [![Watch the video](https://fydeos.io/help/_astro/light-logo.CAcCaTqf.svg)](https://fydeos.io/wp-content/uploads/2024/03/switch-mode.mp4)
 
@@ -21,7 +21,7 @@ Steps to get keyboard backlight working semi fine on Macbook running FydeOS
 >3: Click `Enable Developer Mode’to complete the setup.
 > ```
 
-# Install Chromebrew:
+# 2: Install Chromebrew:
 Thanks to the developers: https://github.com/chromebrew/chromebrew
 
 ## Prerequisites
@@ -61,7 +61,7 @@ bash <(curl -L git.io/vddgY) && . ~/.bashrc
 > This is mainly to add Python support.
 > Chromebrew installs Python by default during installation.
 
-# Get required scripts:
+# 3: Get required scripts:
 ## Make the root directory writable.
 
 ```bash
@@ -119,7 +119,7 @@ Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 > Please do not delete the unzipped folder after loading the extension, otherwise the extension will get deleted after reboot
 
 
-## Add entry to start *keyboard backlight* on system boot
+## 4: Add Autostart to start *keyboard backlight* on system boot
 
 
 ### 1: Click on Extention details: 

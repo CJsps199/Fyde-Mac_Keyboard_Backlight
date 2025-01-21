@@ -165,13 +165,14 @@ Thanks to the developers: https://github.com/supechicken/ChromeOS-AutoStart
 >
 > 
 ```bash
+shell
 sudo bash /home/chronos/user/keyboard-startup.sh
 <developer password> (this was set when installing Chromebrew)
 ```
 >
 >
 - Save Script:
-> ![image](https://github.com/user-attachments/assets/4a19bd11-1d28-46cc-95fe-a839477a2346)
+> ![image](https://github.com/user-attachments/assets/89da0744-9f7c-43fb-86ae-480c6542d58b)
 >
 > 
 - Test Run Script:
